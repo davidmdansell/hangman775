@@ -17,5 +17,5 @@ def ask_for_input():
                     print("Oops! That is not a valid input. Please enter a single letter")
             check_guess(choice)
 
-
+ask_for_input()
        
