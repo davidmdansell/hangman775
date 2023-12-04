@@ -44,11 +44,11 @@ class Hangman:
             # If the letter is valid, call the check_letter method
             self.check_letter(letter)
             break
-
+            
 
 word_list = ['apple', 'orange', 'banana', 'watermelon', 'peach', 'grapes']
 play_game = Hangman(word_list)
-...
+"""initiates instance of the hangman game with 5 lives and using the fruits listed in word_list"""
 print("Welcome to Hangman!")
 print("Word to guess:", play_game.display_word())
 print("Number of lives:", play_game.num_lives)
